@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="items-list">
+            <h2>Items</h2>
+            <ul id="items">
+                <!-- Items will be dynamically added here -->
+            </ul>
+            <input type="text" id="new-item" placeholder="Type a new item here...">
+            <button onclick="addNewItem()">Add Item</button>
+        </div>
+        <div class="shopping-list">
+            <h2>Shopping List</h2>
+            <ul id="shopping-list">
+                <!-- Shopping list items will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
